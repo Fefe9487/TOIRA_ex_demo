@@ -1,0 +1,191 @@
+[
+  {
+    "id": "I-006",
+    "Industry": "醃製食品製造業",
+    "sector": "製造業",
+    "category": "發酵醃漬",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "FD-012",
+    "Industry": "食品製造業",
+    "sector": "製造業",
+    "category": "設備清潔",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "FD-041",
+    "Industry": "食品製造業",
+    "sector": "製造業",
+    "category": "製程加工",
+    "taskId": "液態化學品分裝與包裝作業"
+  },
+  {
+    "id": "F-016",
+    "Industry": "木竹製品及非金屬家具製造業",
+    "sector": "製造業",
+    "category": "表面處理",
+    "taskId": "噴漆及上漆作業"
+  },
+  {
+    "id": "F-043",
+    "Industry": "木竹製品及非金屬家具製造業",
+    "sector": "製造業",
+    "category": "表面處理",
+    "taskId": "油墨調配與廢液回收作業"
+  },
+  {
+    "id": "F-045",
+    "Industry": "木竹製品及非金屬家具製造業",
+    "sector": "製造業",
+    "category": "一般例行作業",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "C-002",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "槽車裝卸",
+    "taskId": "槽車接地作業"
+  },
+  {
+    "id": "C-004",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "槽車裝卸",
+    "taskId": "槽車卸料管閥連接作業"
+  },
+  {
+    "id": "C-008",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "反應與儲存",
+    "taskId": "可燃性化學品管線液位監測作業"
+  },
+  {
+    "id": "C-010",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "反應與儲存",
+    "taskId": "化學品入料作業"
+  },
+  {
+    "id": "C-014",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "巡檢、維修與測試",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "C-021",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "包裝倉儲",
+    "taskId": "液態化學品分裝與包裝作業"
+  },
+  {
+    "id": "C-049",
+    "Industry": "化學品製造業",
+    "sector": "製造業",
+    "category": "廢水處理",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "M-014",
+    "Industry": "金屬製品製造業(鐵管零件加工)",
+    "sector": "製造業",
+    "category": "表面處理",
+    "taskId": "噴漆及上漆作業"
+  },
+  {
+    "id": "P-050",
+    "Industry": "塑膠製品製造業",
+    "sector": "製造業",
+    "category": "二次加工處理",
+    "taskId": "油墨調配與廢液回收作業"
+  },
+  {
+    "id": "P-041",
+    "Industry": "塑膠製品製造業",
+    "sector": "製造業",
+    "category": "一般例行作業",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "E-008",
+    "Industry": "污染防治設備製造業",
+    "sector": "製造業",
+    "category": "客戶設備組裝",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "E-011",
+    "Industry": "污染防治設備製造業",
+    "sector": "製造業",
+    "category": "測試與塗裝",
+    "taskId": "噴漆及上漆作業"
+  },
+  {
+    "id": "PP-004",
+    "Industry": "紙材印刷業",
+    "sector": "製造業",
+    "category": "印刷製程",
+    "taskId": "油墨調配與廢液回收作業"
+  },
+  {
+    "id": "PC-018",
+    "Industry": "紙容器製造業",
+    "sector": "製造業",
+    "category": "一般例行作業",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "PC-031",
+    "Industry": "紙容器製造業",
+    "sector": "製造業",
+    "category": "成型製程",
+    "taskId": "油墨調配與廢液回收作業"
+  },
+  {
+    "id": "S-007",
+    "Industry": "鋼鐵鑄造業",
+    "sector": "製造業",
+    "category": "造模作業",
+    "taskId": "鑄造塗模作業"
+  },
+  {
+    "id": "S-048",
+    "Industry": "鋼鐵鑄造業",
+    "sector": "製造業",
+    "category": "一般例行作業",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "HH-009",
+    "Industry": "危險性作業",
+    "sector": "危險性作業",
+    "category": "具火災、爆炸危險之作業",
+    "taskId": "石化業製程區歲修作業"
+  },
+  {
+    "id": "HH-015",
+    "Industry": "危險性作業",
+    "sector": "危險性作業",
+    "category": "具缺氧、中毒危險之作業",
+    "taskId": "局限空間作業"
+  },
+  {
+    "id": "CY-005",
+    "Industry": "室內裝修與包護工種",
+    "sector": "營造業",
+    "category": "室內裝修與包護工種",
+    "taskId": "噴漆及上漆作業"
+  },
+  {
+    "id": "CY-012",
+    "Industry": "機電與設備工種（MEP）",
+    "sector": "營造業",
+    "category": "機電與設備工種（MEP）",
+    "taskId": "局限空間作業"
+  }
+]

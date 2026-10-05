@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>線上風險評估精靈</title>
+    <link rel="stylesheet" href="theme.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 0 20px 60px;
+        }
+
+        header {
+            width: 100%;
+            max-width: 560px;
+            padding: 44px 0 26px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--brand-800);
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 15px;
+            color: var(--muted);
+        }
+
+        .card {
+            width: 100%;
+            max-width: 560px;
+            padding: 36px 40px 40px;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            margin-top: 22px;
+        }
+
+        .field label {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--ink-2);
+        }
+
+        .error {
+            min-height: 1.6em;
+            margin: 12px 0 0;
+            color: var(--danger);
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .footer-actions {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 28px;
+        }
+
+        @media (max-width: 640px) {
+            .card {
+                padding: 28px 20px 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>線上風險評估精靈</h1>
+        <p>防爆電器與火災爆炸範例測試</p>
+    </header>
+
+    <div class="t-panel card">
+        <h2 class="t-section-title">邀請碼</h2>
+        <div class="t-note">
+            <span>ℹ️</span>
+            <span>請輸入邀請碼後開始。本範例只收錄 10 項與防爆電器、火災或爆炸相關的作業；通過後的公司資料、行業模板、評估與報表流程與 TOIRA 原型相同。</span>
+        </div>
+        <form id="gate-form">
+            <div class="field">
+                <label for="invite">邀請碼</label>
+                <input class="t-input" id="invite" name="invite" type="password" inputmode="numeric" autocomplete="off" placeholder="請輸入邀請碼" required>
+            </div>
+            <p class="error" id="gate-error" role="alert"></p>
+            <div class="footer-actions">
+                <button class="t-btn t-btn--primary t-btn--lg" type="submit">開始測試 →</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        const INVITE_CODE = '1151013';
+
+        function safeNext(value) {
+            if (!value) return 'company.html';
+            if (!/^(company|Selection|New|admin)\.html(\?[A-Za-z0-9._~%=&+-]*)?(#[A-Za-z0-9._~%-]*)?$/.test(value)) {
+                return 'company.html';
+            }
+            return value;
+        }
+
+        document.getElementById('gate-form').addEventListener('submit', (event) => {
+            event.preventDefault();
+            const input = document.getElementById('invite');
+            const error = document.getElementById('gate-error');
+            const code = input.value.trim();
+            if (!code) {
+                error.textContent = '請輸入邀請碼。';
+                return;
+            }
+            if (code !== INVITE_CODE) {
+                error.textContent = '邀請碼不正確，請再試一次。';
+                input.select();
+                return;
+            }
+            sessionStorage.setItem('toiraInviteOk', '1');
+            const next = new URLSearchParams(location.search).get('next');
+            location.href = safeNext(next);
+        });
+    </script>
+</body>
+
+</html>
