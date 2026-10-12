@@ -10,6 +10,7 @@
     "codexEmptyOmitted": 0,
     "unmatchedLibraryGroups": 0
   },
+  "note": "TOIRA 範例測試站子集。只保留 10 項與防爆電器、火災或爆炸相關的作業，資料取自原型目前版本。",
   "maps": [
     {
       "taskName": "化學品入料作業",
@@ -25,7 +26,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -37,7 +40,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -49,7 +54,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -61,7 +68,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -73,7 +82,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -86,7 +97,9 @@
           "coreControlRefs": [
             "A3",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -106,7 +119,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -119,7 +134,9 @@
           "coreControlRefs": [
             "A2",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -133,7 +150,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -145,7 +164,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -166,7 +187,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -180,7 +203,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -196,7 +221,9 @@
           "coreControlRefs": [
             "A2",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -209,7 +236,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -223,7 +252,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -241,7 +272,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -253,7 +286,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -266,7 +301,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -279,7 +316,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -291,7 +330,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -310,7 +351,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -323,7 +366,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -337,7 +382,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -349,7 +396,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -361,7 +410,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -374,7 +425,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -394,7 +447,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -408,7 +463,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -421,7 +478,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -433,7 +492,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -453,7 +514,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -468,7 +531,9 @@
             "A3",
             "A7",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -482,7 +547,9 @@
           "coreControlRefs": [
             "A4",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -497,7 +564,9 @@
             "A5",
             "A9",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -517,7 +586,11 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -535,7 +608,11 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -546,7 +623,11 @@
             "A12",
             "A13"
           ],
-          "coreControlRefs": []
+          "coreControlRefs": [],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -558,7 +639,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H5",
@@ -570,7 +655,11 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H6",
@@ -581,7 +670,11 @@
             "A13",
             "A14"
           ],
-          "coreControlRefs": []
+          "coreControlRefs": [],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -599,7 +692,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -611,7 +706,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -623,7 +720,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -635,7 +734,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -654,7 +755,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -668,7 +771,9 @@
           "coreControlRefs": [
             "A2",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -680,7 +785,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -699,7 +806,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -711,7 +820,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -723,7 +834,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -735,7 +848,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -754,7 +869,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -767,7 +884,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -779,7 +898,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -798,7 +919,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -810,7 +933,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -823,7 +948,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -835,7 +962,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -849,7 +978,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -870,7 +1001,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -885,7 +1018,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -901,7 +1036,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -915,7 +1052,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -934,7 +1073,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -947,7 +1088,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -961,7 +1104,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -975,7 +1120,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -996,7 +1143,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1010,7 +1159,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1023,7 +1174,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -1035,7 +1188,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -1054,7 +1209,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -1064,7 +1223,11 @@
             "A3",
             "A4"
           ],
-          "coreControlRefs": []
+          "coreControlRefs": [],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -1076,7 +1239,11 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -1088,7 +1255,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -1106,7 +1277,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -1118,7 +1291,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -1130,7 +1305,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -1151,7 +1328,9 @@
           "coreControlRefs": [
             "A1",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -1166,7 +1345,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -1182,7 +1363,9 @@
             "A5",
             "A6",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -1200,7 +1383,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -1220,7 +1405,9 @@
           "coreControlRefs": [
             "A2",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -1232,7 +1419,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -1252,7 +1441,9 @@
           ],
           "coreControlRefs": [
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1265,7 +1456,9 @@
           ],
           "coreControlRefs": [
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -1278,7 +1471,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -1291,7 +1486,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -1305,7 +1502,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -1325,7 +1524,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1338,7 +1539,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1351,7 +1554,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -1364,7 +1569,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -1376,7 +1583,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -1395,7 +1604,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1408,7 +1619,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1421,7 +1634,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -1433,7 +1648,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -1445,7 +1662,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -1463,7 +1682,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -1475,7 +1698,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -1487,7 +1714,11 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -1499,7 +1730,11 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H5",
@@ -1511,7 +1746,11 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H6",
@@ -1523,7 +1762,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -1544,7 +1787,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1557,7 +1802,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1572,7 +1819,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -1586,7 +1835,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -1601,7 +1852,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -1615,7 +1868,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H7",
@@ -1628,7 +1883,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H8",
@@ -1642,7 +1899,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -1663,7 +1922,9 @@
             "A1",
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1682,7 +1943,9 @@
             "A8",
             "A10",
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1698,7 +1961,9 @@
           "coreControlRefs": [
             "A3",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -1713,7 +1978,9 @@
           "coreControlRefs": [
             "A4",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -1728,7 +1995,9 @@
             "A1",
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -1742,7 +2011,9 @@
           "coreControlRefs": [
             "A2",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H7",
@@ -1760,7 +2031,9 @@
             "A4",
             "A10",
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H8",
@@ -1773,7 +2046,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -1799,7 +2074,9 @@
             "A5",
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1819,7 +2096,9 @@
             "A5",
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1834,7 +2113,9 @@
           "coreControlRefs": [
             "A9",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -1849,7 +2130,9 @@
           "coreControlRefs": [
             "A8",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -1869,7 +2152,9 @@
             "A6",
             "A7",
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -1883,7 +2168,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -1905,7 +2192,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -1918,7 +2207,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -1933,7 +2224,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -1950,7 +2243,9 @@
           "coreControlRefs": [
             "A3",
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -1963,7 +2258,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -1976,7 +2273,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H7",
@@ -1992,7 +2291,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H8",
@@ -2009,7 +2310,9 @@
           "coreControlRefs": [
             "A3",
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H9",
@@ -2026,7 +2329,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -2049,7 +2354,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -2063,7 +2370,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -2077,7 +2386,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -2092,7 +2403,9 @@
           "coreControlRefs": [
             "A5",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -2109,7 +2422,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -2124,7 +2439,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H7",
@@ -2138,7 +2455,9 @@
           "coreControlRefs": [
             "A7",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H8",
@@ -2152,7 +2471,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -2175,7 +2496,9 @@
             "A5",
             "A6",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2189,7 +2512,9 @@
           "coreControlRefs": [
             "A7",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -2203,7 +2528,9 @@
           "coreControlRefs": [
             "A3",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -2218,7 +2545,9 @@
             "A4",
             "A9",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -2235,7 +2564,9 @@
             "A5",
             "A7",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -2249,7 +2580,9 @@
           "coreControlRefs": [
             "A3",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H7",
@@ -2264,7 +2597,9 @@
             "A6",
             "A11",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H8",
@@ -2279,7 +2614,9 @@
             "A9",
             "A12",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H9",
@@ -2294,7 +2631,9 @@
             "A7",
             "A13",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -2319,7 +2658,11 @@
           "coreControlRefs": [
             "A14",
             "A16"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -2337,7 +2680,11 @@
           "coreControlRefs": [
             "A15",
             "A16"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -2349,7 +2696,11 @@
           ],
           "coreControlRefs": [
             "A23"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -2365,7 +2716,11 @@
             "A24",
             "A26",
             "A27"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H5",
@@ -2377,7 +2732,11 @@
           ],
           "coreControlRefs": [
             "A29"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H6",
@@ -2390,7 +2749,11 @@
           ],
           "coreControlRefs": [
             "A32"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H7",
@@ -2414,7 +2777,11 @@
             "A15",
             "A16",
             "A23"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H8",
@@ -2425,7 +2792,11 @@
             "A19",
             "A21"
           ],
-          "coreControlRefs": []
+          "coreControlRefs": [],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H9",
@@ -2441,7 +2812,11 @@
             "A26",
             "A27",
             "A29"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H10",
@@ -2453,7 +2828,11 @@
           ],
           "coreControlRefs": [
             "A24"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H11",
@@ -2466,7 +2845,11 @@
           ],
           "coreControlRefs": [
             "A32"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -2485,7 +2868,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2497,7 +2882,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -2524,7 +2911,9 @@
             "A6",
             "A7",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2536,7 +2925,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -2551,7 +2942,9 @@
           "coreControlRefs": [
             "A2",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -2567,7 +2960,9 @@
           "coreControlRefs": [
             "A4",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -2582,7 +2977,9 @@
           "coreControlRefs": [
             "A2",
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -2601,7 +2998,9 @@
           "coreControlRefs": [
             "A1",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2615,7 +3014,9 @@
           "coreControlRefs": [
             "A2",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -2634,7 +3035,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2647,7 +3050,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -2659,7 +3064,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -2672,7 +3079,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -2691,7 +3100,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -2703,7 +3114,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -2716,7 +3129,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -2736,7 +3151,9 @@
           "coreControlRefs": [
             "A6",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2748,7 +3165,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -2760,7 +3179,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -2772,7 +3193,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -2792,7 +3215,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -2805,7 +3230,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -2821,7 +3248,9 @@
             "A6",
             "A7",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -2833,7 +3262,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -2847,7 +3278,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H6",
@@ -2859,7 +3292,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -2879,7 +3314,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -2893,7 +3330,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -2905,7 +3344,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -2927,7 +3368,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -2942,7 +3385,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -2957,7 +3402,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -2972,7 +3419,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -2988,7 +3437,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -3008,7 +3459,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3021,7 +3474,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -3034,7 +3489,9 @@
           ],
           "coreControlRefs": [
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -3048,7 +3505,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -3061,7 +3520,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -3080,7 +3541,9 @@
           "coreControlRefs": [
             "A1",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3094,7 +3557,9 @@
           "coreControlRefs": [
             "A1",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -3106,7 +3571,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -3119,7 +3586,9 @@
           "coreControlRefs": [
             "A1",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -3132,7 +3601,9 @@
           "coreControlRefs": [
             "A1",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -3150,7 +3621,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3162,7 +3635,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3174,7 +3649,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3187,7 +3664,9 @@
           "coreControlRefs": [
             "A7",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3206,7 +3685,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -3219,7 +3702,11 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -3232,7 +3719,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -3244,7 +3735,11 @@
           ],
           "coreControlRefs": [
             "A11"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -3262,7 +3757,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3274,7 +3771,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3286,7 +3785,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3299,7 +3800,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3317,7 +3820,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3330,7 +3835,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3342,7 +3849,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3355,7 +3864,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3376,7 +3887,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3391,7 +3904,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3407,7 +3922,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3424,7 +3941,9 @@
           "coreControlRefs": [
             "A1",
             "A13"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3444,7 +3963,9 @@
           "coreControlRefs": [
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3457,7 +3978,9 @@
           "coreControlRefs": [
             "A9",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3469,7 +3992,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3481,7 +4006,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -3495,7 +4022,9 @@
           "coreControlRefs": [
             "A6",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -3509,7 +4038,9 @@
           "coreControlRefs": [
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3528,7 +4059,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3541,7 +4074,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -3553,7 +4088,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -3573,7 +4110,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3587,7 +4126,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -3601,7 +4142,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -3613,7 +4156,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -3632,7 +4177,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3645,7 +4192,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3658,7 +4207,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3670,7 +4221,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -3682,7 +4235,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -3694,7 +4249,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3712,7 +4269,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3724,7 +4283,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3737,7 +4298,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3751,7 +4314,9 @@
           "coreControlRefs": [
             "A2",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3770,7 +4335,9 @@
           "coreControlRefs": [
             "A5",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -3783,7 +4350,9 @@
           "coreControlRefs": [
             "A2",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3798,7 +4367,9 @@
             "A5",
             "A2",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -3810,7 +4381,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -3822,7 +4395,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3842,7 +4417,9 @@
           "coreControlRefs": [
             "A5",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3856,7 +4433,9 @@
           "coreControlRefs": [
             "A5",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -3870,7 +4449,9 @@
           "coreControlRefs": [
             "A5",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -3884,7 +4465,9 @@
           "coreControlRefs": [
             "A5",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -3902,7 +4485,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3914,7 +4499,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -3927,7 +4514,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -3940,7 +4529,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -3952,7 +4543,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -3973,7 +4566,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -3988,7 +4583,9 @@
           "coreControlRefs": [
             "A2",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4004,7 +4601,9 @@
           "coreControlRefs": [
             "A1",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4018,7 +4617,9 @@
           "coreControlRefs": [
             "A4",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4037,7 +4638,9 @@
           "coreControlRefs": [
             "A5",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4050,7 +4653,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4062,7 +4667,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4076,7 +4683,9 @@
           "coreControlRefs": [
             "A5",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4097,7 +4706,11 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -4111,7 +4724,11 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -4124,7 +4741,11 @@
           "coreControlRefs": [
             "A13",
             "A14"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -4137,7 +4758,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -4155,7 +4780,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -4167,7 +4794,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -4179,7 +4808,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -4191,7 +4822,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -4210,7 +4843,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -4223,7 +4858,9 @@
           "coreControlRefs": [
             "A2",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -4236,7 +4873,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -4249,7 +4888,9 @@
           "coreControlRefs": [
             "A4",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -4269,7 +4910,9 @@
           "coreControlRefs": [
             "A6",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -4282,7 +4925,9 @@
           "coreControlRefs": [
             "A9",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -4295,7 +4940,9 @@
           "coreControlRefs": [
             "A10",
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -4307,7 +4954,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -4321,7 +4970,9 @@
           "coreControlRefs": [
             "A6",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -4333,7 +4984,9 @@
           ],
           "coreControlRefs": [
             "A13"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -4353,7 +5006,9 @@
           "coreControlRefs": [
             "A1",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4367,7 +5022,9 @@
           "coreControlRefs": [
             "A1",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4379,7 +5036,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4392,7 +5051,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4412,7 +5073,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -4424,7 +5087,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4440,7 +5105,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -4458,7 +5125,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -4478,7 +5147,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4492,7 +5163,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4506,7 +5179,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4519,7 +5194,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -4532,7 +5209,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4552,7 +5231,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4566,7 +5247,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4578,7 +5261,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4599,7 +5284,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4614,7 +5301,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4628,7 +5317,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4642,7 +5333,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4660,7 +5353,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -4670,7 +5367,11 @@
             "A4",
             "A3"
           ],
-          "coreControlRefs": []
+          "coreControlRefs": [],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -4683,7 +5384,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -4694,7 +5399,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -4716,7 +5425,9 @@
             "A1",
             "A3",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -4733,7 +5444,9 @@
             "A2",
             "A3",
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -4745,7 +5458,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -4766,7 +5481,9 @@
           "coreControlRefs": [
             "A8",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -4779,7 +5496,9 @@
           "coreControlRefs": [
             "A5",
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -4792,7 +5511,9 @@
           "coreControlRefs": [
             "A3",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -4804,7 +5525,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -4816,7 +5539,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -4836,7 +5561,9 @@
           "coreControlRefs": [
             "A1",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4850,7 +5577,9 @@
           "coreControlRefs": [
             "A2",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4864,7 +5593,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4877,7 +5608,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -4892,7 +5625,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4911,7 +5646,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4923,7 +5660,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -4935,7 +5674,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -4948,7 +5689,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -4961,7 +5704,9 @@
           "coreControlRefs": [
             "A5",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -4983,7 +5728,9 @@
           "coreControlRefs": [
             "A1",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -4997,7 +5744,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5009,7 +5758,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -5021,7 +5772,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -5033,7 +5786,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -5046,7 +5801,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5064,7 +5821,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -5076,7 +5835,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -5088,7 +5849,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -5102,7 +5865,9 @@
           "coreControlRefs": [
             "A6",
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -5114,7 +5879,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5136,7 +5903,9 @@
             "A1",
             "A2",
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -5148,7 +5917,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -5161,7 +5932,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5179,7 +5952,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -5191,7 +5966,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -5203,7 +5980,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -5215,7 +5994,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -5227,7 +6008,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5248,7 +6031,9 @@
           "coreControlRefs": [
             "A1",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5260,7 +6045,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5272,7 +6059,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 2,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5294,7 +6083,9 @@
             "A1",
             "A6",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5308,7 +6099,9 @@
           "coreControlRefs": [
             "A2",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5323,7 +6116,9 @@
           "coreControlRefs": [
             "A3",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5341,7 +6136,11 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -5353,7 +6152,11 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -5366,7 +6169,11 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H4",
@@ -5378,7 +6185,11 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H5",
@@ -5390,7 +6201,11 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -5409,7 +6224,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5421,7 +6238,9 @@
           ],
           "coreControlRefs": [
             "A3"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5433,7 +6252,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -5445,7 +6266,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5463,7 +6286,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5475,7 +6300,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5487,7 +6314,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -5499,7 +6328,9 @@
           ],
           "coreControlRefs": [
             "A4"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -5512,7 +6343,9 @@
           "coreControlRefs": [
             "A5",
             "A9"
-          ]
+          ],
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5530,7 +6363,9 @@
           ],
           "coreControlRefs": [
             "A2"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5542,7 +6377,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5555,7 +6392,9 @@
           "coreControlRefs": [
             "A2",
             "A4"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -5567,7 +6406,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -5579,7 +6420,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5598,7 +6441,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -5611,7 +6456,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -5625,7 +6472,9 @@
           "coreControlRefs": [
             "A5",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -5637,7 +6486,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5660,7 +6511,9 @@
           "coreControlRefs": [
             "A8",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5679,7 +6532,9 @@
           "coreControlRefs": [
             "A12",
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5699,7 +6554,9 @@
           "coreControlRefs": [
             "A15",
             "A12"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -5715,7 +6572,9 @@
           ],
           "coreControlRefs": [
             "A12"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -5730,7 +6589,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5751,7 +6612,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -5766,7 +6629,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -5781,7 +6646,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -5795,7 +6662,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5814,7 +6683,9 @@
           "coreControlRefs": [
             "A1",
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H2",
@@ -5826,7 +6697,9 @@
           ],
           "coreControlRefs": [
             "A7"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H3",
@@ -5838,7 +6711,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H4",
@@ -5850,7 +6725,9 @@
           ],
           "coreControlRefs": [
             "A11"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         },
         {
           "hazardId": "H5",
@@ -5863,7 +6740,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "立即危險類型"
         }
       ]
     },
@@ -5884,7 +6763,11 @@
           "coreControlRefs": [
             "A7",
             "A8"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H2",
@@ -5897,7 +6780,11 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 4,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         },
         {
           "hazardId": "H3",
@@ -5909,7 +6796,11 @@
           ],
           "coreControlRefs": [
             "A11"
-          ]
+          ],
+          "recoveryReview": "pending",
+          "severityReviewRequired": true,
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "職業病（待專家覆核）"
         }
       ]
     },
@@ -5927,7 +6818,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5939,7 +6832,9 @@
           ],
           "coreControlRefs": [
             "A1"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5953,7 +6848,9 @@
           "coreControlRefs": [
             "A1",
             "A2"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -5971,7 +6868,9 @@
           ],
           "coreControlRefs": [
             "A6"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -5983,7 +6882,9 @@
           ],
           "coreControlRefs": [
             "A8"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -5995,7 +6896,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -6009,7 +6912,9 @@
           "coreControlRefs": [
             "A6",
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H5",
@@ -6022,7 +6927,9 @@
           ],
           "coreControlRefs": [
             "A10"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H6",
@@ -6037,7 +6944,9 @@
             "A7",
             "A11",
             "A12"
-          ]
+          ],
+          "ruleSeverity": 5,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     },
@@ -6057,7 +6966,9 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H2",
@@ -6071,7 +6982,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H3",
@@ -6085,7 +6998,9 @@
           ],
           "coreControlRefs": [
             "A9"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         },
         {
           "hazardId": "H4",
@@ -6099,10 +7014,19 @@
           ],
           "coreControlRefs": [
             "A5"
-          ]
+          ],
+          "ruleSeverity": 3,
+          "ruleSeverityBasis": "110–114 年職災統計"
         }
       ]
     }
   ],
-  "note": "TOIRA 範例測試站子集，資料版本 20261005h。只保留 10 項與防爆電器、火災或爆炸相關的作業。"
+  "severityPolicyVersion": "20261011b",
+  "severityPolicy": {
+    "range": "S2–S5",
+    "occupationalDisease": "可恢復 S4；不可恢復 S5。現有情境暫定，待專家逐則覆核。",
+    "immediateDanger": "立即危險類型採 S5；類型分級不等於現場已符合法定立即危險情事。",
+    "expertReviewStatus": "in-progress",
+    "expectedFeedbackDate": "2026-10-20"
+  }
 }

@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>選擇行業模板</title>
-    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="theme.css?v=20261011b">
+    <script src="usage-guide.js?v=20261011d" defer></script>
     <style>
         body {
             padding: 36px 20px 60px;
@@ -20,8 +21,17 @@
         .page-head {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
             gap: 16px;
             margin-bottom: 28px;
+        }
+
+        .page-head__help {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
         }
 
         .sheet {
@@ -187,6 +197,11 @@
         }
 
         @media (max-width: 720px) {
+            .page-head__help {
+                width: 100%;
+                margin-left: 0;
+            }
+
             .sheet {
                 padding: 22px 16px 28px;
             }
@@ -196,9 +211,13 @@
 
 <body>
     <div class="page">
-        <div class="page-head">
+        <header class="page-head">
             <button class="t-btn t-btn--outline" onclick="location.href='company.html'">← 返回基本資料</button>
-        </div>
+            <nav class="page-head__help" aria-label="使用協助">
+                <button class="t-btn t-btn--outline t-btn--sm" id="usage-guide-open" type="button" onclick="openUsageGuide()" aria-haspopup="dialog" aria-controls="usage-guide">使用說明</button>
+                <a class="t-btn t-btn--outline t-btn--sm" id="qa-open" href="faq.html" target="_blank" rel="noopener" aria-label="常見問答（另開分頁）">常見問答</a>
+            </nav>
+        </header>
 
         <div class="t-panel sheet">
             <h2 class="t-section-title">1. 選擇行業別模板</h2>
@@ -221,6 +240,7 @@
     <script>
         // 與 New.html 使用相同版本網址，兩頁可重用同一份 JSON 快取。
         const DATA_VER = '20261005h';
+        const SEVERITY_POLICY_VER = '20261011b';
         const DEFAULT_SECTOR = '製造業';
         const CONSTRUCTION_TRADE_ORDER = [
             '土方與深基礎工種',
@@ -238,7 +258,7 @@
         Promise.all([
             fetch(`industrySectors.json?v=${DATA_VER}`, { cache: 'default' }).then(res => res.json()),
             fetch(`industryMapping.json?v=${DATA_VER}`, { cache: 'default' }).then(res => res.json()),
-            fetch(`tasksLibrary.json?v=${DATA_VER}`, { cache: 'default' }).then(res => res.json())
+            fetch(`tasksLibrary.json?v=${DATA_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' }).then(res => res.json())
         ])
         .then(([sectors, mappings, library]) => {
             const combinedData = mappings.map(m => ({

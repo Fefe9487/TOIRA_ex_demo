@@ -1,0 +1,48 @@
+{
+  "sourceFile": "1151007署長報告簡報v1.pptx",
+  "sourceSha256": "58b3a92ee756d85fe2a395517c3e50a4fba2df6c259ecb61964eccc6b1d892d6",
+  "images": [
+    {
+      "file": "toira-overview.png",
+      "slide": 11,
+      "originalMedia": "slide-11-image-01.png",
+      "sha256": "ae130c7957121688afadc796280f9c261db0ff776f007910f559cf794a99cc00",
+      "extraction": "原始 PNG 直接複製，未重新繪製或修改"
+    },
+    {
+      "file": "toira-usage-guide.png",
+      "slide": 12,
+      "originalMedia": "slide-12-image-01.png",
+      "sha256": "0eb8609b169e29cf1b2de3c8ad6c7fccbb83382ac7d1009c3f812513564144e1",
+      "extraction": "原始 PNG 直接複製，未重新繪製或修改"
+    },
+    {
+      "file": "toira-industry-templates.png",
+      "slide": 15,
+      "originalMedia": "slide-15-image-02.png",
+      "sha256": "6a0c380a8b74180b8467e87cc46f93c6370e688d37081c5196008f90e5039ee2",
+      "extraction": "原始 PNG 直接複製，未重新繪製或修改"
+    },
+    {
+      "file": "toira-probability-flow.png",
+      "slide": 18,
+      "originalMedia": "slide-18-image-01.png",
+      "sha256": "a6b8c2d8a1992940e10a9216305ace589d323bcc1d1f50ecbd840dc9e20a059f",
+      "extraction": "原始 PNG 直接複製，未重新繪製或修改"
+    },
+    {
+      "file": "toira-core-hazards.png",
+      "slide": 19,
+      "originalMedia": "slide-19-image-01.png",
+      "sha256": "c46b0db692b8cf520544a6840568e05bf94aa1e74120f311dc6667b6cc3fc4df",
+      "extraction": "原始 PNG 直接複製，未重新繪製或修改"
+    },
+    {
+      "file": "toira-manual-rating.png",
+      "slide": 19,
+      "originalMedia": "slide-19-image-04.png",
+      "sha256": "ac8c06d95049546c7290071be06123b03ef79df81ec16854fd5685d595c1c7ee",
+      "extraction": "原始 PNG 直接複製，未重新繪製或修改"
+    }
+  ]
+}
