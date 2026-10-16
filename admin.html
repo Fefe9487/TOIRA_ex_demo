@@ -487,7 +487,7 @@
         // Auto-load existing JSON files on page load
         window.addEventListener('DOMContentLoaded', async () => {
             try {
-                const sectorsRes = await fetch('industrySectors.json');
+                const sectorsRes = await fetch('industrySectors.json?v=20261016a');
                 if (sectorsRes.ok) {
                     const sectorsData = await sectorsRes.json();
                     if (Array.isArray(sectorsData) && sectorsData.length) {
@@ -503,7 +503,7 @@
             }
 
             try {
-                const tasksRes = await fetch('tasksLibrary.json');
+                const tasksRes = await fetch('tasksLibrary.json?v=20261016a');
                 if (tasksRes.ok) {
                     const tasksData = await tasksRes.json();
                     renderTasksTable(tasksData);
@@ -516,7 +516,7 @@
             }
 
             try {
-                const industryRes = await fetch('industryMapping.json');
+                const industryRes = await fetch('industryMapping.json?v=20261016a');
                 if (industryRes.ok) {
                     const industryData = await industryRes.json();
                     renderIndustryTable(industryData);

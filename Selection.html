@@ -259,6 +259,7 @@
     <script>
         // 與 New.html 使用相同版本網址，兩頁可重用同一份 JSON 快取。
         const DATA_VER = '20261005h';
+        const DATA_FETCH_VER = '20261016a';
         const SEVERITY_POLICY_VER = '20261011b';
         const DEFAULT_SECTOR = '製造業';
         const CONSTRUCTION_TRADE_ORDER = [
@@ -275,9 +276,9 @@
         let openSectorId = null;
 
         Promise.all([
-            fetch(`industrySectors.json?v=${DATA_VER}`, { cache: 'default' }).then(res => res.json()),
-            fetch(`industryMapping.json?v=${DATA_VER}`, { cache: 'default' }).then(res => res.json()),
-            fetch(`tasksLibrary.json?v=${DATA_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' }).then(res => res.json())
+            fetch(`industrySectors.json?v=${DATA_FETCH_VER}`, { cache: 'default' }).then(res => res.json()),
+            fetch(`industryMapping.json?v=${DATA_FETCH_VER}`, { cache: 'default' }).then(res => res.json()),
+            fetch(`tasksLibrary.json?v=${DATA_FETCH_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' }).then(res => res.json())
         ])
         .then(([sectors, mappings, library]) => {
             const combinedData = mappings.map(m => ({
@@ -385,7 +386,7 @@
         function startAssessment(idArray, industryName) {
             sessionStorage.setItem('toiraEx.initTasks', JSON.stringify(idArray));
             sessionStorage.setItem('toiraEx.industryName', industryName);
-            window.location.href = `New.html?v=${DATA_VER}`;
+            window.location.href = `New.html?v=${DATA_FETCH_VER}`;
         }
     </script>
 </body>

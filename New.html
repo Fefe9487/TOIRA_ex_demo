@@ -1706,6 +1706,7 @@
 
         // JSON 使用一般 HTTP 快取；資料改版時同步更新 Selection.html 的版本號。
         const DATA_VER = '20261005h';
+        const DATA_FETCH_VER = '20261016a';
         const SEVERITY_POLICY_VER = '20261011b';
         const MANUAL_RISK_WARNING = '使用者自行調降風險評估等級，應依現場事實填寫調整理由／備註，並自行承擔其調整及作業決策責任。調低分數不代表現場危害已降低，亦不免除法定安全衛生及防護義務。';
 
@@ -1943,7 +1944,7 @@
             const docs = [];
             for (const url of SCENARIO_MAP_URLS) {
                 try {
-                    const res = await fetch(`${url}?v=${DATA_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' });
+                    const res = await fetch(`${url}?v=${DATA_FETCH_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' });
                     if (!res.ok) continue;
                     const data = await res.json();
                     if (data && Array.isArray(data.maps)) docs.push(...data.maps);
@@ -1954,7 +1955,7 @@
                 }
             }
             try {
-                const res = await fetch(`scenarioMigration.json?v=${DATA_VER}`, { cache: 'default' });
+                const res = await fetch(`scenarioMigration.json?v=${DATA_FETCH_VER}`, { cache: 'default' });
                 if (res.ok) scenarioIndexMigration = await res.json();
             } catch (err) {
                 console.warn('舊評估情境對照未載入', err);
@@ -1973,8 +1974,8 @@
             document.getElementById('header-title').textContent = `${industryTitle} - 危害辨識系統`;
 
             Promise.all([
-                fetch(`industryMapping.json?v=${DATA_VER}`, { cache: 'default' }).then(r => r.json()),
-                fetch(`tasksLibrary.json?v=${DATA_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' }).then(r => r.json()),
+                fetch(`industryMapping.json?v=${DATA_FETCH_VER}`, { cache: 'default' }).then(r => r.json()),
+                fetch(`tasksLibrary.json?v=${DATA_FETCH_VER}&severity=${SEVERITY_POLICY_VER}`, { cache: 'default' }).then(r => r.json()),
                 loadScenarioMapDocs()
             ]).then(([mappings, library, mapDocs]) => {
                 const mapByTaskId = {};
